@@ -24,10 +24,21 @@ import threejs from "./tech/threejs.svg";
 import prodigy from "./company/prodigy.png";
 import bvcoe from "./company/bvcoe.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import holistic from "./holistic.png";
+import tictactoe from "./tictactoe.png"
+import weather from "./weather.png"
+import face from "./face.png"
+import semantic from "./semantic.png"
 import python from "./tech/python.jpeg"
+import gdsc from "./company/gdsc.png"
+import stopwatch from './stopwatch.png'
+import todolist from './todolist.png'
+import skills from "./skills.png"
+
+import tourism from "./tourism.png"
+import testimonial from "./testimonial.png"
+import courses from "./course.png"
+
 
 export {
   logo,
@@ -53,8 +64,17 @@ export {
   threejs,
   prodigy,
   bvcoe,
-  carrent,
-  jobit,
-  tripguide,
+  holistic,
   python,
+  gdsc,
+  tictactoe,
+  weather,
+  face,
+  semantic,
+  stopwatch,
+  todolist,
+  skills,
+  tourism,
+  testimonial,
+  courses
 };

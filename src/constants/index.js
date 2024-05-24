@@ -17,12 +17,21 @@ import {
   cpp,
   prodigy,
   bvcoe,
-  carrent,
-  jobit,
-  tripguide,
+  holistic,
   threejs,
+  gdsc,
   // pythonython,
   python,
+  tictactoe,
+  weather,
+  face,
+  semantic,
+  stopwatch,
+  todolist,
+  skills,
+  tourism,
+  testimonial,
+  courses
 } from "../assets";
 
 export const navLinks = [
@@ -149,99 +158,215 @@ const experiences = [
       "Received letter of recommendation from the company for outstanding performance as Web Developer Intern"
     ],
   },
+  {
+    title: "Web Development Tech Team Member",
+    company_name: "Google Developer Student Club",
+    icon: gdsc,
+    iconBg: "#E6DEDD",
+    date: "Dec 2023 - Jan 2024",
+    points: [
+      "Contributed in organizing of various tech events and programs",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "succesfully organized a 24hr hackathon for the college named CodeClash"
+    ],
+  },
  
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial:skills,
+    name: "Login/SignUp",
+    live_link:" ",
+
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial:courses,
+    name: "Course Picker",
+    live_link:" ",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial:tourism,
+    name: "Tourism",
+    live_link:" ",
   },
+  {
+    testimonial:testimonial,
+    name: "Testimonial Slider",
+    live_link:" ",
+  },
+
+  
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Holistic Aura",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created a user-friendly platform to address stress and anxiety and its solutions,it also highlights the platform's impact on teenage mental health.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sockets &API's",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: holistic,
+    source_code_link: "https://github.com/nikunj-oss/HolisticAura",
+    live_link:"https://nikunj-oss.github.io/HolisticAura/",
   },
   {
-    name: "Job IT",
+    name: "Tic-Tac-Toe",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Craft an interactive web app for tic-tac-toe, offering multiplayer battles and solo matches against the computer. With a responsive design, an immersive gaming experience",
     tags: [
       {
-        name: "react",
+        name: "JS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tictactoe,
+    source_code_link: "https://github.com/nikunj-oss/tic-tac-toe",
+    live_link: "https://nikunj-oss.github.io/tic-tac-toe/",
   },
   {
-    name: "Trip Guide",
+    name: "Weather App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive platform that allows users to check weathers based on current location or on a location of there choice that too with a 5-Day forcast.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTMl",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "API",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/nikunj-oss/Weather-App",
+    live_link:"https://nikunj-oss.github.io/Weather-App/",
+  },
+  {
+    name: "Semantic Segmentation",
+    description:
+      "A AI model well trained to diffrentiate between the cells and nuclie from the background with a accuracy score of 94% based on UNET",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UNET",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Deep Learning",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: semantic,
+    source_code_link: "https://github.com/nikunj-oss/Semantic-Segmentation",
+  },
+  {
+    name: "Face Recognition ",
+    description:
+      "A AI model trained to recognize facial features and mark attendence in an excel sheet on the basis of recognition, it's super accurate along with timestamp.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TensorFlow",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: face,
+    source_code_link: "https://github.com/nikunj-oss/FaceRecognition",
+  },
+  {
+    name: "Stop Watch",
+    description:
+      "Enjoy precise timing with our sleek stopwatch feature. Start, stop, lap, and reset functions make tracking time a breeze, all within a beautiful UI.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: stopwatch,
+    source_code_link: "https://github.com/nikunj-oss/StopWatch",
+    live_link:"https://nikunj-oss.github.io/StopWatch/",
+  },
+  {
+    name: "To-Do list",
+    description:
+      "A comprehensive platform for writing day-to-day task and marking them upon completion with a inbuilt memory support to retain task even after closing browser",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: todolist,
+    source_code_link: "https://github.com/nikunj-oss/todolist",
+    live_link:"https://nikunj-oss.github.io/todolist/",
   },
 ];
 
