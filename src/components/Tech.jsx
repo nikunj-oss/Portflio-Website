@@ -23,13 +23,14 @@ const Tech = () => {
       <br/>
       <div>
       <h2 className="text-xl font-bold mb-4 mx-3">Other Skills</h2>
-      <div className="flex">
+      <div className="flex flex-wrap gap-2">
         <Other name="Python"/>
         <Other name="ExpressJS"/>
         <Other name="MaterialUI"/>
         <Other name="Heroku"/>
         <Other name="Netlify"/>
         <Other name="Github"/>
+        <Other name="Vite"/>
       </div>
       </div>
     </div>

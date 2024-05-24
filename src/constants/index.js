@@ -180,22 +180,27 @@ const testimonials = [
     testimonial:skills,
     name: "Login/SignUp",
     live_link:" ",
+    info:"It is a UI design for a login/signup page",
+
 
   },
   {
     testimonial:courses,
     name: "Course Picker",
     live_link:" ",
+    info:"It is a UI design for various courses you can sort from tag",
   },
   {
     testimonial:tourism,
     name: "Tourism",
     live_link:" ",
+    info:"It is a UI design for various tourism packages along with info and pricing",
   },
   {
     testimonial:testimonial,
     name: "Testimonial Slider",
     live_link:" ",
+    info:"It is a UI design for testimonials of various people",
   },
 
   
