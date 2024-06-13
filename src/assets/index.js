@@ -40,6 +40,7 @@ import testimonial from "./testimonial.png"
 import courses from "./course.png"
 
 import musicplayer from "./musicplayer.png"
+import cleverbook from "./cleverbook.png"
 
 
 export {
@@ -79,5 +80,6 @@ export {
   tourism,
   testimonial,
   courses,
-  musicplayer
+  musicplayer,
+  cleverbook
 };

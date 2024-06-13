@@ -32,7 +32,8 @@ import {
   tourism,
   testimonial,
   courses,
-  musicplayer
+  musicplayer,
+  cleverbook
 } from "../assets";
 
 export const navLinks = [
@@ -202,6 +203,12 @@ const testimonials = [
     name: "Testimonial Slider",
     live_link:" ",
     info:"It is a UI design for testimonials of various people",
+  },
+  {
+    testimonial:cleverbook,
+    name: "CleverBooks",
+    live_link:"https://cleverbookassignment.netlify.app/",
+    info:"It is a UI design for copy of website",
   },
 
   
