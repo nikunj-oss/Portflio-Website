@@ -39,6 +39,8 @@ import tourism from "./tourism.png"
 import testimonial from "./testimonial.png"
 import courses from "./course.png"
 
+import musicplayer from "./musicplayer.png"
+
 
 export {
   logo,
@@ -76,5 +78,6 @@ export {
   skills,
   tourism,
   testimonial,
-  courses
+  courses,
+  musicplayer
 };

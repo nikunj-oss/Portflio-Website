@@ -31,7 +31,8 @@ import {
   skills,
   tourism,
   testimonial,
-  courses
+  courses,
+  musicplayer
 } from "../assets";
 
 export const navLinks = [
@@ -372,6 +373,28 @@ const projects = [
     image: todolist,
     source_code_link: "https://github.com/nikunj-oss/todolist",
     live_link:"https://nikunj-oss.github.io/todolist/",
+  },{
+    name: "Gen-Sop MusicPlayer",
+    description:
+      "Used Reactjs,TailWind,Redux and Spotify developer API for making a eye catchy music player that shows song from your profile and provide play pause functionality without ads",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: musicplayer,
+    source_code_link: "https://github.com/nikunj-oss/gensop_music",
+    live_link:"https://gensopmusic.netlify.app/",
   },
 ];
 
