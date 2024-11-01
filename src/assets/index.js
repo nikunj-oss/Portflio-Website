@@ -42,6 +42,9 @@ import courses from "./course.png"
 import musicplayer from "./musicplayer.png"
 import cleverbook from "./cleverbook.png"
 
+import stakesmen from "./company/stakesmen.jpg"
+import synq from "./synq.png"
+import calender from "./calender.png"
 
 export {
   logo,
@@ -81,5 +84,8 @@ export {
   testimonial,
   courses,
   musicplayer,
-  cleverbook
+  cleverbook,
+  stakesmen,
+  synq,
+  calender
 };

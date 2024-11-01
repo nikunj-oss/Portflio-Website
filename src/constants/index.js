@@ -33,7 +33,10 @@ import {
   testimonial,
   courses,
   musicplayer,
-  cleverbook
+  cleverbook,
+  stakesmen,
+  synq,
+  calender
 } from "../assets";
 
 export const navLinks = [
@@ -172,6 +175,19 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
       "succesfully organized a 24hr hackathon for the college named CodeClash"
+    ],
+  },
+  {
+    title: "Full Stack Developer Intern",
+    company_name: "Stakesmen.com",
+    icon: stakesmen,
+    iconBg: "#E6DEDD",
+    date: "Jul 2024 - Aug 2024",
+    points: [
+      "Developed an educational platform for Android and web with session hosting and a buddy system. Managed frontend and backend tasks, including building 10+ APIs, testing, and database management.",
+      "Contributed to a live edtech and fintech project using HTML, CSS, React, Next.js, Mongoose, and Node.js.",
+      "Improved project performance by 30% and learning a lot about startups and corporate workstyle.",
+      "Received letter of recommendation from the company for outstanding performance as Full Stack Developer Intern"
     ],
   },
  
@@ -402,6 +418,72 @@ const projects = [
     image: musicplayer,
     source_code_link: "https://github.com/nikunj-oss/gensop_music",
     live_link:"https://gensopmusic.netlify.app/",
+  },
+  {
+    name: "Synq",
+    description:
+      "Implemented user registration and real-time messaging with over 100 active users and support for attachments",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.Js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: synq,
+    source_code_link: "https://github.com/nikunj-oss/chatapp-server",
+    live_link:"https://synq-us.vercel.app/",
+  },
+  {
+    name: "Calender",
+    description:
+      "Implemented user event tracking app to track event set reminder and show them on a beautful calender UI",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.Js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: calender,
+    source_code_link: "https://github.com/nikunj-oss/calender-client",
+    live_link:"https://calender-client-rho.vercel.app/",
   },
 ];
 
